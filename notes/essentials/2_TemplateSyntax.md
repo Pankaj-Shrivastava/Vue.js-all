@@ -13,5 +13,5 @@ The double mustaches interpret the data as plain text, not HTML. In order to out
         <p>Using text interpolation: {{ rawHtml }}</p>
         <p>Using v-html directive: <span v-html="rawHtml"></span></p>
 
-[!Warning]
-Dynamically rendering arbitrary HTML on your website can be very dangerous because it can easily lead to XSS vulnerabilities. Only use v-html on trusted content and never on user-provided content.
+> [!Security Warning]
+> Dynamically rendering arbitrary HTML on your website can be very dangerous because it can easily lead to XSS vulnerabilities. Only use v-html on trusted content and never on user-provided content.
