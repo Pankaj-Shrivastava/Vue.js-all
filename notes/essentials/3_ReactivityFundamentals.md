@@ -1,4 +1,4 @@
-# Reactivity Fundamentals
+# Reactivity Fundamentals (Composition API)
 
 ## Declaring Reactive State
 
